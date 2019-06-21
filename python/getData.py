@@ -77,7 +77,8 @@ def getBiliData(biliUid):
         else:
             video_info = json.loads(bili_data.text)
             for video in video_info["data"]["vlist"]:
-                data["play"] += video["play"]
+                if video["play"] != "--":
+                    data["play"] += video["play"]
                 data["fave"] += video["favorites"]
                 data["comm"] += video["comment"]
     data["biliIndex"] = int(data["play"]*0.1+data["fave"]*0.6+data["comm"]*0.2)
