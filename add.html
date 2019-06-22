@@ -1,0 +1,41 @@
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>Wind Chimes</title>
+        <link rel="stylesheet" href="style/base.css" type="text/css" />
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="topbar_box">
+                <img src="style/logo.png"/>
+                <div class="title"><a href="" style="color:#efefef"> 风铃 / Wind Chimes</a></div>
+                <div class="guide_box">
+                    <a href="" ><div>主页</div></a>
+                    <a href="about.html"><div>关于</div></a>
+                </div>
+            </div>
+        </div>
+        <div class="body_box">
+            <div class="box" style="width:100%;height: 400px;">
+                <div style="width: 100%;text-align: center;font-size: 28px;">添加统计用户(所有必填)</div>
+                <div>
+                    <form action="add.php" method="POST">
+                        <table style="text-align: right;margin:10px auto;">
+                            <tr><td>管理员密码</td><td><input type="password" name="pw"/></td></tr>
+                            <tr><td>用户名</td><td><input type="text" name="name"/></td></tr>
+                            <tr><td>微博Uid</td><td><input type="text" name="weiboUid"/></td></tr>
+                            <tr><td>哔哩哔哩Uid</td><td><input type="text" name="biliUid"/></td></tr>
+                            <tr><td>简介信息</td><td><input type="text" name="info"/></td></tr>
+                            <tr><td>头像图片链接(只能http)</td><td><input type="text" name="avatar"/></td></tr>
+                        </table>
+                        <button type="submit" style="width: 8%;margin:0 46%">提交</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bottom">
+                <hr/>
+                <a href='https://github.com/lilidream/Wind_Chimes' target='_blank'>风铃 Wind Chimes</a> | Written By TOYOHAY
+            </div>
+        </div>
+    </body>
+</html>
