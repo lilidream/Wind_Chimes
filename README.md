@@ -1,5 +1,7 @@
 # 风铃 | Wind Chimes
 风铃是一款由前后端来获取与展示微博与哔哩哔哩用户（偶像）粉丝相关数据的应用
+
+实例地址：[c.nightship.cn](http://c.nightship.cn)
 ## 主题色
 #e2359b
 
